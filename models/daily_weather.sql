@@ -6,7 +6,7 @@ date(time) as daily_weather,
 weather,
 temp,
 pressure,
-humidity,
+humidity, 
 clouds
 
 from {{ source('demo', 'weather') }}
